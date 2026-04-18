@@ -1,0 +1,77 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "whoIsEkrem": "Ekrem İmamoğlu Kimdir?",
+    "timeline": "Zaman Çizelgesi",
+    "theCase": "Dava Dosyası",
+    "latestUpdates": "Son Gelişmeler",
+    "chpActions": "Eylemler ve Protestolar",
+    "contact": "Proje Hakkında / İletişim"
+  },
+  "home": {
+    "headline": "Demokrasi Hapsedilemez.",
+    "subheadline": "Halkın iradesi saldırı altında. 16 milyon vatandaş oyunu kullandı. Sadık bir mahkeme, halkın seçtiği lideri hukuksuzca hapsetti. Bu, İstanbul Büyükşehir Belediye Başkanı Ekrem İmamoğlu'na yönelik yargı darbesinin anatomik kaydıdır.",
+    "detentionCounter": {
+      "label": "Hukuksuz Tutukluluktan Bugüne",
+      "days": "GÜN",
+      "hours": "SAAT",
+      "minutes": "DAKİKA",
+      "seconds": "SANİYE"
+    },
+    "readMore": "Gerçekleri İncele",
+    "quote": "\"Sandıkta kazanamadığınızda yargıyı silah olarak kullanırsınız. Bu benim özgürlüğümle ilgili değil. Bu, sizin demokratik varlığınızın yok edilmesiyle ilgili.\"",
+    "stats": {
+      "title": "Kuşatma Altındaki İrade",
+      "files": "12",
+      "filesLabel": "Büyük Soruşturma Dosyası",
+      "years": "2.489 Yıl 9 Ay",
+      "yearsLabel": "İstenen Toplam Hapis Ceza Süresi",
+      "signatures": "25.1M",
+      "signaturesLabel": "Destek İmzası"
+    },
+    "timelinePreview": "Bir Susturma Günlüğü",
+    "globalOutcry": "Dünya İzliyor",
+    "theCase": "Kurgulanmış Bir Yargılama",
+    "theCaseSummary": "Hukuki sürecin adli bir analizi. Tek bir kelimenin, hükümetin en güçlü rakibine karşı yargısal bir darbe gerçekleştirmek için sadık savcılar tarafından nasıl silah haline getirildiğini keşfedin.",
+    "readDossier": "Dosyayı İncele",
+    "annulment": {
+      "date": "6 Mayıs 2019",
+      "title": "İptal Kararı",
+      "text": "Yüksek Seçim Kurulu, büyük bir hükümet baskısı altında İmamoğlu'nun zaferini tartışmalı bir şekilde iptal etti. Gelecekteki cumhurbaşkanlığı adaylığını engellemek amacıyla diploması sorgulandı. Ertesi sabah gözaltı kararı geldi."
+    },
+    "elections": {
+      "title": "Kazanmaya Devam Etti",
+      "subtitle": "Meşruiyetini zayıflatmaya yönelik her girişim, halkın ona verdiği desteği daha da güçlendirdi.",
+      "elec1": { "date": "Mart 2019", "margin": "13.729", "label": "İlk Fark" },
+      "elec2": { "date": "Haziran 2019", "margin": "806.415", "label": "Tekrarlanan Seçim Farkı" },
+      "elec3": { "date": "Mart 2024", "margin": "1.048.185", "label": "Yeniden Seçilme Farkı" }
+    },
+    "latest": {
+      "title": "Son Gelişmeler",
+      "summary": "Devam eden hukuki manevraları ve siyasi karşı hamleleri takip edin.",
+      "readAll": "Tüm Güncellemeleri Gör"
+    },
+    "actions": {
+      "title": "Halk Hareketi & Direniş",
+      "summary": "Yargısal baskıya karşı sivil toplumun tepkisi.",
+      "readAll": "Protesto Arşivini İncele"
+    },
+    "world": {
+      "title": "Dünya Neden İlgilenmeli?",
+      "text": "Bu dava tek bir belediye başkanının çok ötesine geçmektedir. Türkiye'de hukukun üstünlüğü ve demokratik muhalefetin hayatta kalıp kalamayacağına yönelik kritik bir testtir. Avrupa'nın en büyük kentindeki 16 milyon vatandaşın seçim iradesi bir mahkeme kararıyla silinebiliyorsa, otoriterleşmenin yerleşmesi için gereken plan tamamlanmış demektir."
+    },
+    "cta": {
+      "title": "Halkın İradesine Sahip Çık",
+      "text": "Davayı takip et. Kanıtları paylaş. Uluslararası izlemeyi koordine et."
+    }
+  },
+  "theCase": {
+    "title": "Siyasi Dava",
+    "summary": "Hukuki sürecin adli bir analizi.",
+    "readDossier": "Dosyayı İncele"
+  },
+  "footer": {
+    "disclaimer": "Bu bağımsız platform, Türkiye'de demokratik hakların yargı eliyle gasp edilmesini belgelemektedir. Sessizlik suç ortaklığıdır.",
+    "links": "Arşiv"
+  }
+}

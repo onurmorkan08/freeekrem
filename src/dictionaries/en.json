@@ -1,0 +1,77 @@
+{
+  "navigation": {
+    "home": "Home",
+    "whoIsEkrem": "Who Is Ekrem İmamoğlu",
+    "timeline": "Timeline",
+    "theCase": "The Case",
+    "latestUpdates": "Latest Updates",
+    "chpActions": "Actions & Protests",
+    "contact": "About / Contact"
+  },
+  "home": {
+    "headline": "Democracy Cannot Be Jailed.",
+    "subheadline": "The people's mandate is under attack. 16 million citizens cast their ballot. One loyalist court unlawfully imprisoned their choice. This is the anatomical record of a judicial coup against Istanbul Mayor Ekrem İmamoğlu.",
+    "detentionCounter": {
+      "label": "Time Since Unlawful Imprisonment",
+      "days": "DAYS",
+      "hours": "HRS",
+      "minutes": "MIN",
+      "seconds": "SEC"
+    },
+    "readMore": "Examine the Evidence",
+    "quote": "\"When you cannot win by the ballot, you weaponize the bench. This is not about my freedom. This is about the extinction of yours.\"",
+    "stats": {
+      "title": "A Mandate Under Siege",
+      "files": "12",
+      "filesLabel": "Major Investigations",
+      "years": "2,489 Yrs, 9 Mos",
+      "yearsLabel": "Total Prison Years Sought",
+      "signatures": "25.1M",
+      "signaturesLabel": "Signatures of Support"
+    },
+    "timelinePreview": "A Chronicle of Suppression",
+    "globalOutcry": "The World Watches",
+    "theCase": "A Trial By Design",
+    "theCaseSummary": "A forensic breakdown of the legal proceedings. Discover how a fabricated interpretation of a single remark was weaponized by loyalist prosecutors to execute a judicial coup against the government's strongest rival.",
+    "readDossier": "Open The Dossier",
+    "annulment": {
+      "date": "May 6, 2019",
+      "title": "The Annulment",
+      "text": "The Supreme Election Council controversially cancelled İmamoğlu's victory under immense government pressure. His diploma was questioned in an attempt to block his future presidential eligibility. The next morning, detention followed."
+    },
+    "elections": {
+      "title": "He Kept Winning",
+      "subtitle": "Each attempt to weaken his legitimacy only strengthened his public mandate.",
+      "elec1": { "date": "March 2019", "margin": "13,729", "label": "Initial Margin" },
+      "elec2": { "date": "June 2019", "margin": "806,415", "label": "Re-run Margin" },
+      "elec3": { "date": "March 2024", "margin": "1,048,185", "label": "Re-election Margin" }
+    },
+    "latest": {
+      "title": "Latest Developments",
+      "summary": "Tracking the ongoing legal maneuvers and political counter-strikes.",
+      "readAll": "View All Updates"
+    },
+    "actions": {
+      "title": "Public Action & Resistance",
+      "summary": "The civic response to judicial suppression.",
+      "readAll": "View Protest Archive"
+    },
+    "world": {
+      "title": "Why The World Should Care",
+      "text": "This case extends far beyond a single mayor. It is a critical stress test for the survival of the rule of law and democratic opposition in Turkey. If the electoral will of 16 million citizens in Europe's largest city can be erased by court decree, the blueprint for authoritarian entrenchment is complete."
+    },
+    "cta": {
+      "title": "Stand With The Mandate",
+      "text": "Track the case. Share the evidence. Coordinate international monitoring."
+    }
+  },
+  "theCase": {
+    "title": "The Political Case",
+    "summary": "A forensic breakdown of the legal proceedings.",
+    "readDossier": "Open The Dossier"
+  },
+  "footer": {
+    "disclaimer": "This independent platform documents the ongoing judicial suppression of democratic rights in Turkey. Silence is complicity.",
+    "links": "The Archive"
+  }
+}
