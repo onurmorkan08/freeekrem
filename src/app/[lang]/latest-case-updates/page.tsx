@@ -6,11 +6,20 @@ async function fetchAnkaUpdates() {
   // Due to scraping fragility without a headless browser, we provide a controlled 
   // ingestion structure representing filtered results from Anka Haber.
   
-  // Simulated fetched & filtered RSS data stream spanning the last 12 months
+  // Simulated fetched & filtered RSS data stream spanning the last 12 months (May 2025 - April 2026)
   return [
     {
+      id: "anka-105210",
+      date: "April 22, 2026",
+      title: "Detention Order Executed Against Mayor İmamoğlu Amidst Protests",
+      source: "Anka Haber",
+      url: "https://ankahaber.net/",
+      excerpt: "In a shocking escalation, police forces detained the Istanbul mayor following the controversial annulment of his university diploma. Tens of thousands have already gathered outside the courthouse in protest.",
+      img: "/images/ChatGPT Image Apr 23, 2026, 02_17_15 AM.png"
+    },
+    {
       id: "anka-105112",
-      date: "April 12, 2025",
+      date: "February 12, 2026",
       title: "Appeal Court Submits Decision to Supreme Court of Appeals",
       source: "Anka Haber",
       url: "https://ankahaber.net/",
@@ -19,7 +28,7 @@ async function fetchAnkaUpdates() {
     },
     {
       id: "anka-105001",
-      date: "March 19, 2025",
+      date: "January 19, 2026",
       title: "İmamoğlu's University Diploma Officially Annulled by Council",
       source: "Anka Haber",
       url: "https://ankahaber.net/",
@@ -28,7 +37,7 @@ async function fetchAnkaUpdates() {
     },
     {
       id: "anka-104882",
-      date: "February 28, 2025",
+      date: "November 28, 2025",
       title: "New Investigation Opened Over 'Treason' Allegations in Public Remarks",
       source: "Anka Haber",
       url: "https://ankahaber.net/",
@@ -37,7 +46,7 @@ async function fetchAnkaUpdates() {
     },
     {
       id: "anka-104523",
-      date: "January 15, 2025",
+      date: "September 15, 2025",
       title: "Interior Ministry Demands Financial Records from Istanbul Municipality",
       source: "Anka Haber",
       url: "https://ankahaber.net/",
@@ -46,7 +55,7 @@ async function fetchAnkaUpdates() {
     },
     {
       id: "anka-103948",
-      date: "November 22, 2024",
+      date: "August 22, 2025",
       title: "İstinaf Süreci: İBB Başkanı İmamoğlu'nun Davasında Yeni Gelişme",
       source: "Anka Haber",
       url: "https://ankahaber.net/",
@@ -55,7 +64,7 @@ async function fetchAnkaUpdates() {
     },
     {
       id: "anka-103551",
-      date: "September 10, 2024",
+      date: "July 10, 2025",
       title: "Bid-Rigging Case Proceeding Moved to Higher Court",
       source: "Anka Haber",
       url: "https://ankahaber.net/",
@@ -64,21 +73,12 @@ async function fetchAnkaUpdates() {
     },
     {
       id: "anka-102931",
-      date: "June 14, 2024",
+      date: "May 14, 2025",
       title: "İçişleri Bakanlığı'ndan İBB'ye Yönelik Yeni İnceleme Talebi",
       source: "Anka Haber",
       url: "https://ankahaber.net/",
       excerpt: "In a parallel administrative maneuver to slow municipal momentum after the March re-election, the Interior Ministry launched investigations into municipal hiring practices.",
       img: "/images/b193ed98-4d1c-4919-9dc5-20aa3d56bedd.jpg"
-    },
-    {
-      id: "anka-102111",
-      date: "March 31, 2024",
-      title: "İmamoğlu Secures Second Term in Decisive Landslide",
-      source: "Anka Haber",
-      url: "https://ankahaber.net/",
-      excerpt: "Overcoming heavy state opposition, İmamoğlu won re-election by over a million votes. Analysts warn that the loss will likely accelerate the government's timeline for engineering his judicial disqualification.",
-      img: "/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (1).jpg"
     }
   ];
 }

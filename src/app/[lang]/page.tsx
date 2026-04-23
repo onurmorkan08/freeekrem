@@ -40,7 +40,7 @@ export default async function Home({
                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 lg:left-0 lg:translate-x-0 w-[80%] h-[60%] bg-white/5 blur-[100px] rounded-full pointer-events-none"></div>
                
                <img 
-                 src="/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (1).jpg" 
+                 src="/images/ChatGPT Image Apr 23, 2026, 01_40_16 AM.png" 
                  alt="Ekrem İmamoğlu" 
                  className="relative z-10 w-full h-full object-cover object-top drop-shadow-2xl grayscale-[20%] contrast-110"
                  style={{ WebkitMaskImage: 'linear-gradient(to top, transparent 0%, black 15%)' }}
@@ -201,14 +201,14 @@ export default async function Home({
              {/* Simulated Anka Preview Card 1 */}
              <div className="border border-white/5 bg-zinc-950/50 hover:bg-zinc-900 transition-colors p-8 group">
                <span className="text-[0.65rem] font-bold tracking-widest uppercase text-primary mb-4 block">Anka Haber / Recent</span>
-               <h3 className="text-2xl font-serif text-white mb-4 group-hover:text-primary transition-colors">Appeals Court Deliberation Ongoing</h3>
-               <p className="text-zinc-400 text-sm leading-relaxed line-clamp-3">The regional appeals court is currently reviewing the conviction. Should they uphold the ruling, the case will escalate to the Supreme Court of Appeals, dragging the timeline perilously close to the next electoral cycle.</p>
+               <h3 className="text-2xl font-serif text-white mb-4 group-hover:text-primary transition-colors">Detention Executed Amidst Protests</h3>
+               <p className="text-zinc-400 text-sm leading-relaxed line-clamp-3">In a shocking escalation, police forces detained the Istanbul mayor following the controversial annulment of his university diploma. Tens of thousands gather outside courthouses.</p>
              </div>
              {/* Simulated Anka Preview Card 2 */}
              <div className="border border-white/5 bg-zinc-950/50 hover:bg-zinc-900 transition-colors p-8 group">
                <span className="text-[0.65rem] font-bold tracking-widest uppercase text-primary mb-4 block">Anka Haber / Previous</span>
-               <h3 className="text-2xl font-serif text-white mb-4 group-hover:text-primary transition-colors">Secondary Investigation Launched</h3>
-               <p className="text-zinc-400 text-sm leading-relaxed line-clamp-3">In an apparent attempt to build a secondary legal trap, the Interior Ministry launched investigations into municipal hiring practices without robust evidentiary basis.</p>
+               <h3 className="text-2xl font-serif text-white mb-4 group-hover:text-primary transition-colors">Diploma Officially Annulled</h3>
+               <p className="text-zinc-400 text-sm leading-relaxed line-clamp-3">In a sudden administrative escalation, the Higher Education Council has successfully pushed through the annulment of Ekrem İmamoğlu's university diploma, severely endangering his constitutional eligibility.</p>
              </div>
            </div>
         </div>
@@ -230,7 +230,7 @@ export default async function Home({
            <div className="grid md:grid-cols-3 gap-px bg-zinc-900 border border-zinc-900 overflow-hidden">
              {/* Civic Action Render */}
              <div className="aspect-[4/5] relative group bg-black">
-                <img src="/images/b193ed98-4d1c-4919-9dc5-20aa3d56bedd.jpg" className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700" alt="Action" />
+                <img src="/images/ChatGPT Image Apr 23, 2026, 01_40_24 AM.png" className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700" alt="Action" />
              </div>
              <div className="aspect-[4/5] relative group bg-black">
                 <img src="https://images.unsplash.com/photo-1554188289-4b2a8eddbcd4?auto=format&fit=crop&q=80" className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700" alt="Protest" />

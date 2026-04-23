@@ -44,8 +44,14 @@ export default function Footer({ lang }: { lang: Locale }) {
           </ul>
         </div>
       </div>
-      <div className="container mx-auto px-6 mt-16 pt-8 border-t border-white/5 text-center flex flex-col md:flex-row justify-between items-center text-xs text-zinc-600 gap-4">
+      <div className="container mx-auto px-6 mt-16 pt-8 border-t border-white/5 text-center flex flex-col md:flex-row justify-between items-center text-xs text-zinc-600 gap-6">
         <span>© {new Date().getFullYear()} Free Ekrem İmamoğlu Advocacy</span>
+        
+        <div className="flex items-center gap-3 opacity-30 hover:opacity-100 transition-opacity grayscale hover:grayscale-0 pointer-events-auto">
+           <img src="/images/ChatGPT Image Apr 23, 2026, 02_26_11 AM.png" className="w-[70px] h-auto object-contain" alt="Owner Signature" />
+           <span className="text-[9px] font-mono tracking-widest uppercase text-zinc-500">Onur Morkan</span>
+        </div>
+
         <div className="flex gap-4">
            <Link href={`/${lang}`} className="hover:text-zinc-400">Privacy Policy</Link>
            <Link href={`/${lang}`} className="hover:text-zinc-400">Terms of Service</Link>

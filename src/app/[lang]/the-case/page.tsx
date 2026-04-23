@@ -16,7 +16,7 @@ export default function TheCasePage() {
       {/* Background Hero Texture - Courthouse / Institutional Corridors */}
       <div className="absolute top-0 left-0 w-full h-[70vh] overflow-hidden pointer-events-none opacity-30 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/80 to-[#050608] z-10"></div>
-        <img src="/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380.jpg" className="w-full h-full object-cover object-center grayscale mix-blend-screen contrast-125 mask-image-bottom-fade" alt="Institutional Power" />
+        <img src="/images/ChatGPT Image Apr 23, 2026, 02_17_15 AM.png" className="w-full h-full object-cover object-top grayscale mix-blend-screen contrast-125 mask-image-bottom-fade" alt="Legal Pressure Context" />
       </div>
 
       <div className="relative z-10">
@@ -45,50 +45,50 @@ export default function TheCasePage() {
                 Unable to defeat Ekrem İmamoğlu at the ballot box, the ruling establishment shifted its strategy from electoral politics to judicial manipulation. 
               </p>
               <p className="text-xl lg:text-2xl font-serif text-zinc-400 leading-relaxed text-balance border-l border-transparent pl-6">
-                The series of cases against him are not standard legal procedures; they are internationally recognized as weaponized political processes designed to neutralize the government's strongest democratic rival.
+                The series of cases against him are not standard legal procedures; they follow a clear trajectory of escalation designed to neutralize the government's strongest democratic rival before the next presidential cycle.
               </p>
             </motion.div>
 
             <div className="w-full h-px bg-zinc-900 my-16"></div>
 
-            {/* 2. FROM BALLOT BOX TO BENCH */}
-            <section>
-              <span className="text-[0.65rem] font-bold tracking-[0.3em] uppercase text-zinc-600 mb-4 block hover:text-primary transition-colors">Phase 01</span>
-              <h2 className="text-4xl font-serif text-white mb-8">From Ballot Box to Bench</h2>
-              <div className="space-y-6 text-xl text-zinc-400 leading-relaxed">
-                <p>When the ruling party lost control of Istanbul in March 2019, they pressured the Supreme Election Council to annul the results. Their logic was that the population made a mistake. When the population corrected that "mistake" by re-electing İmamoğlu with an historic 800,000-vote landslide, the tactical reality shifted.</p>
-                <p>The state recognized that beating İmamoğlu in a fair election was increasingly unlikely. The administrative siege over municipal operations began immediately, but it was not enough to drain his popularity. Consequently, the battleground was moved to the only sector the executive branch directly controlled: the courtrooms.</p>
-              </div>
-            </section>
-
-            {/* 3. THE "FOOL" REMARK */}
+            {/* 2. PRESENT STAKES: DETENTION & DIPLOMA */}
             <section className="p-10 border border-white/5 bg-zinc-950/50 shadow-2xl relative overflow-hidden group">
               <div className="absolute top-0 left-0 w-1 h-full bg-primary ease-in-out"></div>
-              <span className="text-[0.65rem] font-bold tracking-[0.3em] uppercase text-primary mb-4 block">The First Manufacture</span>
-              <h2 className="text-4xl font-serif text-white mb-8">The "Fool" Remark</h2>
+              <span className="text-[0.65rem] font-bold tracking-[0.3em] uppercase text-primary mb-4 block">Current Status</span>
+              <h2 className="text-4xl font-serif text-white mb-8">The Detention and Diploma Annulment</h2>
               <div className="space-y-6 text-xl text-zinc-300 leading-relaxed">
-                <p>In November 2019, responding to Interior Minister Süleyman Soylu who called him a "fool" <i>(ahmak)</i> for criticizing the cancellation of the election in Europe, İmamoğlu retorted: "Those who canceled the election on March 31 are the real fools."</p>
-                <p>Over a year later, prosecutors violently stretched this widely publicized political clapback, claiming it was a direct criminal insult aimed not at the Minister, but at the independent judges of the Supreme Election Council. This manufactured interpretation laid the groundwork for an unprecedented political ban.</p>
+                <p>Recognizing that typical criminal appeals processes were moving too slowly, the administrative state opened a new, sudden front. Over 30 years after his graduation, political bodies moved to annul İmamoğlu's university diploma.</p>
+                <p>Under the Turkish Constitution, a university degree is a strict prerequisite for running for President of the Republic. By abruptly destroying his academic credentials, the establishment engineered a technical disqualification. Hours after this maneuver escalated, the state moved to detain him, igniting immediate nationwide protests.</p>
               </div>
             </section>
 
-            {/* 4. THE DIPLOMA ESCALATION */}
+            {/* 3. MULTIPLICATION OF FILES */}
             <section>
-              <span className="text-[0.65rem] font-bold tracking-[0.3em] uppercase text-zinc-600 mb-4 block hover:text-primary transition-colors">Phase 02</span>
-              <h2 className="text-4xl font-serif text-white mb-8">The Diploma Annulment Escalation</h2>
-              <div className="space-y-6 text-xl text-zinc-400 leading-relaxed">
-                <p>While the "fool verdict" was held pending appeal—acting as a permanent sword of Damocles over his political future—the administrative state opened a new front. More than 30 years after his graduation, political bodies suddenly moved to annul his university diploma.</p>
-                <p>This was not an academic dispute. Under the Turkish Constitution, a university degree is a strict prerequisite for running for President of the Republic. By attacking his diploma, the establishment sought to engineer a technical disqualification without relying entirely on the slow, heavily scrutinized criminal appeals process. Hours after this maneuver escalated, sudden detention followed.</p>
-              </div>
-            </section>
-
-            {/* 5. MULTIPLICATION OF FILES */}
-            <section>
-              <span className="text-[0.65rem] font-bold tracking-[0.3em] uppercase text-zinc-600 mb-4 block hover:text-primary transition-colors">The Strategy</span>
+              <span className="text-[0.65rem] font-bold tracking-[0.3em] uppercase text-zinc-600 mb-4 block hover:text-primary transition-colors">Strategic Escalation</span>
               <h2 className="text-4xl font-serif text-white mb-8">The Multiplication of Files</h2>
               <div className="space-y-6 text-xl text-zinc-400 leading-relaxed">
-                <p>The state has adopted a "buckshot" legal strategy. Recognizing that one case might attract too much international condemnation or fall apart under public scrutiny, the Interior Ministry and state prosecutors opened more than a dozen major investigation files.</p>
-                <p>From baseless allegations of "terror-linked" municipal hiring practices to manufacturing public bid-rigging charges stemming from his time as a district mayor years prior, the sheer volume of cases is designed to project an illusion of criminality and ensure that at least one political ban sticks.</p>
+                <p>To reach this breaking point, the state adopted a "buckshot" legal strategy over several years. Recognizing that one case might attract too much international condemnation or fall apart under public scrutiny, prosecutors systematically opened more than a dozen major investigation files.</p>
+                <p>From baseless allegations of "terror-linked" municipal hiring practices to manufacturing public bid-rigging charges stemming from his time as a district mayor, the sheer volume of cases was designed to project an illusion of criminality and ensure maximum cumulative prison exposure.</p>
+              </div>
+            </section>
+
+            {/* 4. THE "FOOL" REMARK */}
+            <section>
+              <span className="text-[0.65rem] font-bold tracking-[0.3em] uppercase text-zinc-600 mb-4 block hover:text-primary transition-colors">The Catalyst</span>
+              <h2 className="text-4xl font-serif text-white mb-8">The "Fool" Remark</h2>
+              <div className="space-y-6 text-xl text-zinc-400 leading-relaxed">
+                <p>The foundation of this prolonged legal assault was laid in November 2019. Responding to the Interior Minister who called him a "fool" <i>(ahmak)</i>, İmamoğlu retorted: "Those who canceled the election on March 31 are the real fools."</p>
+                <p>Over a year later, prosecutors violently stretched this political clapback, claiming it was a direct criminal insult aimed at the independent judges of the Supreme Election Council. This isolated, manufactured interpretation resulted in a conviction carrying a political ban, acting as a sword of Damocles over his entire tenure.</p>
+              </div>
+            </section>
+
+            {/* 5. FROM BALLOT BOX TO BENCH */}
+            <section>
+              <span className="text-[0.65rem] font-bold tracking-[0.3em] uppercase text-zinc-600 mb-4 block hover:text-primary transition-colors">The Origin</span>
+              <h2 className="text-4xl font-serif text-white mb-8">From Ballot Box to Bench</h2>
+              <div className="space-y-6 text-xl text-zinc-400 leading-relaxed">
+                <p>The entire judicial apparatus was activated because of one original failure: the inability to defeat İmamoğlu politically. When the ruling party lost control of Istanbul in March 2019, they pressured the Supreme Election Council to annul the results. The population corrected that by re-electing him with an historic 800,000-vote landslide.</p>
+                <p>That second victory fundamentally proved he could not be removed democratically. Consequently, over the next four years, the battleground was permanently moved to the only sector the executive branch directly controlled: the courtrooms.</p>
               </div>
             </section>
 
@@ -96,8 +96,8 @@ export default function TheCasePage() {
             <section className="border-t border-b border-zinc-900 py-16">
               <h2 className="text-4xl font-serif text-white mb-8">A Judgment With Global Consequences</h2>
               <div className="space-y-6 text-xl text-zinc-400 leading-relaxed">
-                <p>Independent legal analysts point to grave irregularities: the sudden replacement of the initial trial judge—allegedly because he intended to acquit the mayor—and the reliance on severely fragmented legal interpretations.</p>
-                <p>This case extends far beyond one politician or one country. If the electoral will of 16 million citizens in Europe's largest city can be erased by a loyalist judge, the framework for peaceful democratic transition collapses. The defense of İmamoğlu's mandate is the definitive stress test for the future of democratic legitimacy in NATO's eastern flank.</p>
+                <p>This escalating case load extends far beyond one politician or one country. Independent legal analysts point to grave irregularities: the sudden replacement of trial judges intended to acquit him, and the reliance on severely fragmented legal interpretations.</p>
+                <p>If the electoral will of 16 million citizens in Europe's largest city can be arbitrarily erased by a loyalist bench, the framework for peaceful democratic transition collapses. The defense of İmamoğlu's mandate is the definitive stress test for the future of democratic legitimacy in NATO's eastern flank.</p>
               </div>
             </section>
 
