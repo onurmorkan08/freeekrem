@@ -23,7 +23,7 @@ export default function WhoIsEkremPage() {
          <div className="grid lg:grid-cols-12 gap-y-16 lg:gap-16 items-center mb-40">
             <div className="lg:col-span-5">
                <div className="aspect-[3/4] w-full bg-zinc-900 border border-white/5 relative group p-2 shadow-2xl">
-                 <img src="/images/ChatGPT Image Apr 23, 2026, 01_40_16 AM.png" className="w-full h-full object-cover object-[center_top] grayscale-[30%] contrast-125 opacity-90 transition-all duration-1000 group-hover:scale-105" alt="Ekrem İmamoğlu" />
+                 <img src="/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380.jpg" className="w-full h-full object-cover object-[center_top] grayscale-[30%] contrast-125 opacity-90 transition-all duration-1000 group-hover:scale-105" alt="Ekrem İmamoğlu" />
                  <div className="absolute inset-0 bg-gradient-to-t from-[#050608] via-transparent to-transparent opacity-80 pointer-events-none z-10"></div>
                  <div className="absolute bottom-6 left-6 z-20">
                    <span className="text-[0.6rem] font-bold tracking-widest uppercase text-primary bg-black/80 px-3 py-1">The Target</span>
@@ -87,7 +87,7 @@ export default function WhoIsEkremPage() {
 
             <div className="lg:col-span-6 lg:order-2 order-1 sticky top-32">
                <div className="aspect-square w-full bg-zinc-950 overflow-hidden relative border border-white/5 group shadow-2xl p-2">
-                 <img src="/images/ChatGPT Image Apr 23, 2026, 01_40_24 AM.png" className="w-full h-full object-cover object-center grayscale mix-blend-luminosity opacity-70 group-hover:scale-105 transition-transform duration-1000" alt="The Mandate" />
+                 <img src="/images/b193ed98-4d1c-4919-9dc5-20aa3d56bedd.jpg" className="w-full h-full object-cover object-center grayscale mix-blend-luminosity opacity-70 group-hover:scale-105 transition-transform duration-1000" alt="The Mandate" />
                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
                  <div className="absolute bottom-6 left-6 right-6">
                     <blockquote className="font-serif text-2xl font-light text-white leading-relaxed italic border-l-2 border-primary pl-4">
@@ -104,7 +104,7 @@ export default function WhoIsEkremPage() {
          <div className="grid lg:grid-cols-12 gap-y-16 lg:gap-16 items-center">
             <div className="lg:col-span-5 relative">
                <div className="w-full bg-[#050608] relative group p-4 border border-white/5 pb-10 shadow-2xl rotate-1 hover:rotate-0 transition-transform duration-500">
-                 <img src="/images/WhatsApp Image 2025-09-20 at 4.34.25 PM1.jpeg" className="w-full h-auto object-cover grayscale-[30%] opacity-90 contrast-125 hover:grayscale-0 transition-all duration-700" alt="Family Support" />
+                 <img src="/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (1).jpg" className="w-full h-auto object-cover grayscale-[30%] opacity-90 contrast-125 hover:grayscale-0 transition-all duration-700" alt="Family Support" />
                  <div className="text-center mt-4 opacity-50 font-mono text-[0.6rem] uppercase tracking-widest text-zinc-500">Beyond the Podiums</div>
                </div>
             </div>

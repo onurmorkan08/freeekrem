@@ -40,7 +40,7 @@ export default async function Home({
                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 lg:left-0 lg:translate-x-0 w-[80%] h-[60%] bg-white/5 blur-[100px] rounded-full pointer-events-none"></div>
                
                <img 
-                 src="/images/ChatGPT Image Apr 23, 2026, 01_40_16 AM.png" 
+                 src="/images/free-imamoglu-post@2x-100.jpg" 
                  alt="Ekrem İmamoğlu" 
                  className="relative z-10 w-full h-full object-cover object-top drop-shadow-2xl grayscale-[20%] contrast-110"
                  style={{ WebkitMaskImage: 'linear-gradient(to top, transparent 0%, black 15%)' }}
@@ -56,6 +56,7 @@ export default async function Home({
                 <span className="text-[0.65rem] font-bold uppercase tracking-[0.3em] text-white">Emergency Dossier</span>
               </div>
               
+              <img src="/images/1 (2).png" alt="Ekrem İmamoğlu Signature" className="w-48 opacity-80 mb-6 drop-shadow-lg filter brightness-0 invert" />
               <h1 className="text-6xl md:text-7xl xl:text-8xl font-serif font-black text-white mix-blend-plus-lighter mb-8 leading-[0.9] drop-shadow-2xl tracking-tight">
                 {dict.home.headline}
               </h1>
@@ -75,6 +76,30 @@ export default async function Home({
 
       {/* STAT BLOCK: Main Data Points */}
       <StatBlock stats={dict.home.stats} />
+
+      {/* THE HUMAN SIDE / CHILD PHOTO SECTION */}
+      <section className="py-24 bg-[#0a0b0e] relative border-b border-zinc-900 overflow-hidden">
+        <div className="container mx-auto px-6 max-w-6xl">
+           <div className="grid md:grid-cols-2 gap-16 items-center">
+             <div className="relative aspect-[4/3] group">
+                <div className="absolute inset-0 bg-primary/20 translate-x-4 translate-y-4 -z-10 transition-transform group-hover:translate-x-6 group-hover:translate-y-6"></div>
+                <img src="/images/whatsapp image 2025-09-20 at 4.34.25 pm1.jpeg" className="w-full h-full object-cover object-center grayscale contrast-125 brightness-90 shadow-2xl" alt="Ekrem İmamoğlu with Child" />
+             </div>
+             <div className="flex flex-col justify-center">
+                <div className="w-12 h-px bg-primary mb-8 mt-2"></div>
+                <h2 className="text-4xl md:text-5xl font-serif text-white mb-8 leading-tight tracking-tight">
+                  Beyond the Political Target
+                </h2>
+                <p className="text-xl text-zinc-400 leading-relaxed mb-6">
+                  Behind the judicial pressure and coordinated political blockade stands a mayor whose primary mandate derived from a direct, unmediated connection with the millions of Istanbul residents.
+                </p>
+                <p className="text-lg text-zinc-500 leading-relaxed">
+                  His unprecedented 2019 dual victories broke a 25-year systemic cycle, making him a central symbol of democratic resilience.
+                </p>
+             </div>
+           </div>
+        </div>
+      </section>
 
       {/* DIPLOMA ANNULMENT / DETENTION STRIP */}
       <section className="py-24 bg-primary relative overflow-hidden border-b border-white/10">
@@ -125,7 +150,7 @@ export default async function Home({
               <div className="bg-black border border-zinc-800 p-10 text-center flex flex-col justify-center relative overflow-hidden group shadow-2xl">
                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/3 h-1 bg-zinc-700 transition-colors group-hover:bg-primary"></div>
                  <span className="text-xs font-bold uppercase tracking-widest text-zinc-500 mb-6">{dict.home.elections?.elec1.date}</span>
-                 <span className="font-serif text-5xl text-white mb-4 block">{dict.home.elections?.elec1.margin}</span>
+                 <span className="font-serif text-5xl text-white mb-4 block">{dict.home.elections?.elec1.margin || "13,729"}</span>
                  <span className="text-sm uppercase tracking-widest text-zinc-400">{dict.home.elections?.elec1.label}</span>
               </div>
 
@@ -133,7 +158,7 @@ export default async function Home({
               <div className="bg-black border border-zinc-800 p-10 text-center flex flex-col justify-center relative overflow-hidden group shadow-2xl scale-105 z-10">
                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/3 h-1 bg-primary"></div>
                  <span className="text-xs font-bold uppercase tracking-widest text-zinc-500 mb-6">{dict.home.elections?.elec2.date}</span>
-                 <span className="font-serif text-6xl text-white mb-4 block scale-110">{dict.home.elections?.elec2.margin}</span>
+                 <span className="font-serif text-6xl text-white mb-4 block scale-110">{dict.home.elections?.elec2.margin || "806,415"}</span>
                  <span className="text-sm uppercase tracking-widest text-primary">{dict.home.elections?.elec2.label}</span>
               </div>
 
@@ -141,7 +166,7 @@ export default async function Home({
               <div className="bg-black border border-zinc-800 p-10 text-center flex flex-col justify-center relative overflow-hidden group shadow-2xl">
                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/3 h-1 bg-zinc-700 transition-colors group-hover:bg-primary"></div>
                  <span className="text-xs font-bold uppercase tracking-widest text-zinc-500 mb-6">{dict.home.elections?.elec3.date}</span>
-                 <span className="font-serif text-5xl text-white mb-4 block">{dict.home.elections?.elec3.margin}</span>
+                 <span className="font-serif text-5xl text-white mb-4 block">{dict.home.elections?.elec3.margin || "1,048,185"}</span>
                  <span className="text-sm uppercase tracking-widest text-zinc-400">{dict.home.elections?.elec3.label}</span>
               </div>
            </div>

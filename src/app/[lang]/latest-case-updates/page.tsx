@@ -15,7 +15,8 @@ async function fetchAnkaUpdates() {
       source: "Anka Haber",
       url: "https://ankahaber.net/",
       excerpt: "In a shocking escalation, police forces detained the Istanbul mayor following the controversial annulment of his university diploma. Tens of thousands have already gathered outside the courthouse in protest.",
-      img: "/images/ChatGPT Image Apr 23, 2026, 02_17_15 AM.png"
+      img: "/images/ChatGPT Image Apr 23, 2026, 01_40_24 AM.png",
+      imgPos: "center 30%"
     },
     {
       id: "anka-105112",
@@ -24,7 +25,8 @@ async function fetchAnkaUpdates() {
       source: "Anka Haber",
       url: "https://ankahaber.net/",
       excerpt: "The regional appeals court has finalized its review of the 'fool' conviction case, elevating the dossier to the Supreme Court of Appeals (Yargıtay). This move accelerates the timeline for a potential political ban ahead of the next electoral cycle.",
-      img: "/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380.jpg"
+      img: "/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (4).jpg",
+      imgPos: "center top"
     },
     {
       id: "anka-105001",
@@ -33,7 +35,8 @@ async function fetchAnkaUpdates() {
       source: "Anka Haber",
       url: "https://ankahaber.net/",
       excerpt: "In a sudden administrative escalation, the Higher Education Council has successfully pushed through the annulment of Ekrem İmamoğlu's university diploma, severely endangering his constitutional eligibility to run for President.",
-      img: "/images/b193ed98-4d1c-4919-9dc5-20aa3d56bedd.jpg"
+      img: "/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380.jpg",
+      imgPos: "center 20%"
     },
     {
       id: "anka-104882",
@@ -42,7 +45,8 @@ async function fetchAnkaUpdates() {
       source: "Anka Haber",
       url: "https://ankahaber.net/",
       excerpt: "Prosecutors have launched a fresh investigation into İmamoğlu following a speech in Anatolia where he criticized the justice system. The charge alleges 'insulting the Turkish state and its institutions'.",
-      img: "https://images.unsplash.com/photo-1450101499163-c8848c66cb85?auto=format&fit=crop&q=80"
+      img: "https://images.unsplash.com/photo-1450101499163-c8848c66cb85?auto=format&fit=crop&q=80",
+      imgPos: "center"
     },
     {
       id: "anka-104523",
@@ -51,7 +55,8 @@ async function fetchAnkaUpdates() {
       source: "Anka Haber",
       url: "https://ankahaber.net/",
       excerpt: "The Interior Ministry has seized thousands of municipal hiring and financial records from the Istanbul Metropolitan Municipality under the guise of an ongoing 'terrorism-linked personnel' probe.",
-      img: "https://images.unsplash.com/photo-1541872703874-fa7252ce7be9?auto=format&fit=crop&q=80"
+      img: "https://images.unsplash.com/photo-1541872703874-fa7252ce7be9?auto=format&fit=crop&q=80",
+      imgPos: "center"
     },
     {
       id: "anka-103948",
@@ -60,7 +65,8 @@ async function fetchAnkaUpdates() {
       source: "Anka Haber",
       url: "https://ankahaber.net/",
       excerpt: "The regional appeals court begins its active deliberation on the 'fool' conviction case. Several judges involved in the initial trial have been mysteriously reassigned to lower courts outside the city.",
-      img: "/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (1).jpg"
+      img: "/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (1).jpg",
+      imgPos: "center top"
     },
     {
       id: "anka-103551",
@@ -69,7 +75,8 @@ async function fetchAnkaUpdates() {
       source: "Anka Haber",
       url: "https://ankahaber.net/",
       excerpt: "A secondary case alleging tender irregularities from İmamoğlu's time as district mayor in Beylikdüzü has been controversially moved to a higher court, increasing the maximum sentence exposure to seven years.",
-      img: "/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380.jpg"
+      img: "/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (3).jpg",
+      imgPos: "center 15%"
     },
     {
       id: "anka-102931",
@@ -78,7 +85,8 @@ async function fetchAnkaUpdates() {
       source: "Anka Haber",
       url: "https://ankahaber.net/",
       excerpt: "In a parallel administrative maneuver to slow municipal momentum after the March re-election, the Interior Ministry launched investigations into municipal hiring practices.",
-      img: "/images/b193ed98-4d1c-4919-9dc5-20aa3d56bedd.jpg"
+      img: "/images/b193ed98-4d1c-4919-9dc5-20aa3d56bedd.jpg",
+      imgPos: "center 10%"
     }
   ];
 }
@@ -105,8 +113,8 @@ export default async function LatestUpdatesPage() {
                 {/* Image Block */}
                 <div className="md:w-1/3 aspect-video md:aspect-auto relative overflow-hidden shrink-0 border-b md:border-b-0 md:border-r border-white/5 bg-[#050608]">
                    <div 
-                     className="absolute inset-0 bg-cover bg-center grayscale opacity-60 mix-blend-luminosity contrast-125 group-hover:scale-105 group-hover:grayscale-[50%] transition-transform duration-[1500ms]"
-                     style={{ backgroundImage: `url('${update.img}')` }}
+                     className="absolute inset-0 bg-cover grayscale opacity-60 mix-blend-luminosity contrast-125 group-hover:scale-105 group-hover:grayscale-[50%] transition-transform duration-[1500ms]"
+                     style={{ backgroundImage: `url('${update.img}')`, backgroundPosition: (update as any).imgPos || 'center' }}
                    />
                 </div>
                 

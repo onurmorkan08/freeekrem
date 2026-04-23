@@ -62,6 +62,14 @@ export default function TheCasePage() {
               </div>
             </section>
 
+            <div className="my-16 relative aspect-[16/9] w-full border border-zinc-900 group shadow-2xl p-2 bg-black">
+               <img src="/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (4).jpg" className="w-full h-full object-cover object-[center_20%] grayscale-[40%] contrast-125 opacity-90 transition-all duration-1000 group-hover:scale-105" alt="Judicial Pressure" />
+               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 pointer-events-none z-10"></div>
+               <div className="absolute bottom-6 left-6 z-20">
+                 <span className="text-[0.6rem] font-bold tracking-widest uppercase text-white bg-red-950/80 px-3 py-1">Legal Dossier</span>
+               </div>
+            </div>
+
             {/* 3. MULTIPLICATION OF FILES */}
             <section>
               <span className="text-[0.65rem] font-bold tracking-[0.3em] uppercase text-zinc-600 mb-4 block hover:text-primary transition-colors">Strategic Escalation</span>
