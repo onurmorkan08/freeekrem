@@ -147,10 +147,11 @@ export default function TimelinePage() {
                      </div>
 
                      {/* Archival Image Module */}
-                     <div className="w-full lg:w-1/2 aspect-video relative border border-white/10 bg-zinc-950 overflow-hidden group p-2">
-                        <div 
-                          className="absolute inset-0 bg-cover grayscale opacity-80 mix-blend-luminosity group-hover:scale-105 group-hover:grayscale-[50%] transition-transform duration-[2000ms]"
-                          style={{ backgroundImage: `url('${event.img}')`, backgroundPosition: event.imgPos || 'center' }}
+                     <div className="w-full lg:w-1/2 aspect-[4/3] relative border border-white/10 bg-zinc-950 overflow-hidden group p-2 flex items-center justify-center">
+                        <img 
+                          src={event.img}
+                          alt={event.subtitle}
+                          className="w-full h-full object-contain grayscale opacity-80 mix-blend-luminosity group-hover:scale-105 group-hover:grayscale-[50%] transition-transform duration-[2000ms]"
                         />
                         <div className={`absolute bottom-6 px-4 py-2 border text-[0.65rem] font-mono tracking-widest uppercase bg-black/90 backdrop-blur-sm ${i % 2 === 1 ? 'right-6 border-white/20 text-zinc-300' : 'left-6 border-primary/50 text-white'}`}>
                           Record #{i+1}

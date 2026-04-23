@@ -14,7 +14,7 @@ export default function CHPActionsPage() {
       url: "https://ankahaber.net/",
       description: "Minutes after the detention order was executed following the diploma annulment, tens of thousands converged on the municipality headquarters. A clear civic message was sent: The electorate will not surrender their victory to a compromised administrative state.",
       participantCount: "~ 150,000",
-      images: ["/images/ChatGPT Image Apr 18, 2026, 12_59_55 AM.png"]
+      images: ["/images/11.png"]
     },
     {
       id: "act-2",
@@ -25,7 +25,7 @@ export default function CHPActionsPage() {
       url: "https://ankahaber.net/",
       description: "Simultaneous massive demonstrations erupted in the capital, Ankara, and the Aegean stronghold of Izmir. Civic platforms, labor unions, and all major opposition parties threw their weight behind the protests.",
       participantCount: null,
-      images: ["/images/ChatGPT Image Apr 23, 2026, 01_40_24 AM.png"]
+      images: ["/images/12.jpg"]
     },
     {
       id: "act-3",
@@ -36,7 +36,7 @@ export default function CHPActionsPage() {
       url: "https://ankahaber.net/",
       description: "Nightly 'cacerolazo' style protests (pots and pans) begin at 9:00 PM across the country. Neighborhood assemblies take over local squares. The resistance is no longer localized to Istanbul; it is a national referendum on democracy.",
       participantCount: "Millions across cities",
-      images: ["/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (3).jpg"]
+      images: ["/images/4.png"]
     },
     {
       id: "act-4",
@@ -47,7 +47,7 @@ export default function CHPActionsPage() {
       url: "https://ankahaber.net/",
       description: "Over 5,000 lawyers assemble in front of the primary courthouse in their official robes to protest the illegal detention of a sitting mayor.",
       participantCount: "5,000+ Lawyers",
-      images: ["/images/b193ed98-4d1c-4919-9dc5-20aa3d56bedd.jpg"]
+      images: ["/images/5.png"]
     },
     {
       id: "act-5",
@@ -58,7 +58,7 @@ export default function CHPActionsPage() {
       url: "https://ankahaber.net/",
       description: "Opposition leadership declares establishing a 'Democratic Blockade.' Boycotts of state-aligned media and rotating democratic vigils outside detention centers continue.",
       participantCount: null,
-      images: ["/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380.jpg"]
+      images: ["/images/10.jpg"]
     }
   ];
 

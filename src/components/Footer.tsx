@@ -18,7 +18,10 @@ export default function Footer({ lang }: { lang: Locale }) {
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 blur-[100px] pointer-events-none mix-blend-screen rounded-full"></div>
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 relative z-10">
         <div className="lg:col-span-2 space-y-6">
-           <h3 className="font-serif text-3xl font-black tracking-tighter uppercase text-white flex items-center gap-4">
+          <div className="flex items-center gap-4 mb-6">
+            <img src="/images/13.png" alt="Ekrem İmamoğlu Signature" className="w-32 opacity-90 filter brightness-0 invert" />
+          </div>
+          <h3 className="font-serif text-3xl font-black tracking-tighter uppercase text-white flex items-center gap-4">
             <div className="w-4 h-4 bg-primary mix-blend-screen shrink-0"></div>
             Free Ekrem İmamoğlu
           </h3>
@@ -47,9 +50,9 @@ export default function Footer({ lang }: { lang: Locale }) {
       <div className="container mx-auto px-6 mt-16 pt-8 border-t border-white/5 text-center flex flex-col md:flex-row justify-between items-center text-xs text-zinc-600 gap-6">
         <span>© {new Date().getFullYear()} Free Ekrem İmamoğlu Advocacy</span>
         
-        <div className="flex flex-row items-center gap-3 opacity-90 hover:opacity-100 transition-opacity pointer-events-auto">
-           <img src="/images/2.png" className="w-[45px] h-auto object-contain brightness-0 invert" alt="Owner Signature" />
-           <span className="text-[11px] font-mono tracking-widest uppercase text-white">Onur Morkan</span>
+        <div className="flex flex-row items-center gap-3 opacity-90 hover:opacity-100 transition-opacity pointer-events-auto bg-black/50 px-4 py-2 rounded-full border border-white/10">
+           <img src="/images/2.png" className="w-6 h-6 object-contain filter brightness-0 invert" alt="Owner Signature" />
+           <span className="text-[11px] font-medium tracking-widest text-white">Onur Morkan</span>
         </div>
 
         <div className="flex gap-4">

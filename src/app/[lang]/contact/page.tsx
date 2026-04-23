@@ -55,7 +55,7 @@ export default function ContactPage() {
       {/* Absolute positioning for a stark background hero */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden h-[60vh]">
         <div className="absolute inset-0 bg-gradient-to-b from-[#050608]/80 via-[#050608] to-[#050608] z-10"></div>
-        <img src="/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (1).jpg" className="absolute top-0 right-0 w-full lg:w-1/2 h-full object-cover grayscale opacity-10 mix-blend-luminosity contrast-125" alt="Background Texture" />
+        <img src="/images/9.jpg" className="absolute top-0 right-0 w-full lg:w-1/2 h-full object-cover grayscale opacity-10 mix-blend-luminosity contrast-125" alt="Background Texture" />
       </div>
 
       <div className="relative z-10 flex-grow">

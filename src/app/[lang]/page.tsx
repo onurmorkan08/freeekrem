@@ -56,7 +56,6 @@ export default async function Home({
                 <span className="text-[0.65rem] font-bold uppercase tracking-[0.3em] text-white">Emergency Dossier</span>
               </div>
               
-              <img src="/images/13.png" alt="Ekrem İmamoğlu Signature" className="w-48 opacity-80 mb-6 drop-shadow-lg filter brightness-0 invert" />
               <h1 className="text-6xl md:text-7xl xl:text-8xl font-serif font-black text-white mix-blend-plus-lighter mb-8 leading-[0.9] drop-shadow-2xl tracking-tight">
                 {dict.home.headline}
               </h1>
@@ -83,7 +82,7 @@ export default async function Home({
            <div className="grid md:grid-cols-2 gap-16 items-center">
              <div className="relative aspect-[4/3] group">
                 <div className="absolute inset-0 bg-primary/20 translate-x-4 translate-y-4 -z-10 transition-transform group-hover:translate-x-6 group-hover:translate-y-6"></div>
-                <img src="/images/1.jpeg" className="w-full h-full object-cover object-center grayscale contrast-125 brightness-90 shadow-2xl" alt="Ekrem İmamoğlu with Child" />
+                <img src="/images/1.jpeg" className="w-full h-full object-cover object-center shadow-2xl" alt="Ekrem İmamoğlu with Child" />
              </div>
              <div className="flex flex-col justify-center">
                 <div className="w-12 h-px bg-primary mb-8 mt-2"></div>
