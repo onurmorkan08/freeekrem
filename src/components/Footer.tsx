@@ -47,9 +47,9 @@ export default function Footer({ lang }: { lang: Locale }) {
       <div className="container mx-auto px-6 mt-16 pt-8 border-t border-white/5 text-center flex flex-col md:flex-row justify-between items-center text-xs text-zinc-600 gap-6">
         <span>© {new Date().getFullYear()} Free Ekrem İmamoğlu Advocacy</span>
         
-        <div className="flex flex-col items-end gap-1 opacity-80 hover:opacity-100 transition-opacity pointer-events-auto">
-           <img src="/images/ChatGPT Image Apr 23, 2026, 02_26_11 AM.png" className="w-[40px] h-auto object-contain brightness-0 invert" alt="Owner Signature" />
-           <span className="text-[10px] font-mono tracking-widest uppercase text-white">Onur Morkan</span>
+        <div className="flex flex-row items-center gap-3 opacity-90 hover:opacity-100 transition-opacity pointer-events-auto">
+           <img src="/images/2.png" className="w-[45px] h-auto object-contain brightness-0 invert" alt="Owner Signature" />
+           <span className="text-[11px] font-mono tracking-widest uppercase text-white">Onur Morkan</span>
         </div>
 
         <div className="flex gap-4">

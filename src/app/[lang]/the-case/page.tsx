@@ -16,7 +16,7 @@ export default function TheCasePage() {
       {/* Background Hero Texture - Courthouse / Institutional Corridors */}
       <div className="absolute top-0 left-0 w-full h-[70vh] overflow-hidden pointer-events-none opacity-30 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/80 to-[#050608] z-10"></div>
-        <img src="/images/ChatGPT Image Apr 23, 2026, 02_17_15 AM.png" className="w-full h-full object-cover object-top grayscale mix-blend-screen contrast-125 mask-image-bottom-fade" alt="Legal Pressure Context" />
+        <img src="/images/3).png" className="w-full h-full object-cover object-top grayscale mix-blend-screen contrast-125 mask-image-bottom-fade" alt="Legal Pressure Context" />
       </div>
 
       <div className="relative z-10">
@@ -63,7 +63,7 @@ export default function TheCasePage() {
             </section>
 
             <div className="my-16 relative aspect-[16/9] w-full border border-zinc-900 group shadow-2xl p-2 bg-black">
-               <img src="/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (4).jpg" className="w-full h-full object-cover object-[center_20%] grayscale-[40%] contrast-125 opacity-90 transition-all duration-1000 group-hover:scale-105" alt="Judicial Pressure" />
+               <img src="/images/7.jpg" className="w-full h-full object-cover object-[center_20%] grayscale-[40%] contrast-125 opacity-90 transition-all duration-1000 group-hover:scale-105" alt="Judicial Pressure" />
                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 pointer-events-none z-10"></div>
                <div className="absolute bottom-6 left-6 z-20">
                  <span className="text-[0.6rem] font-bold tracking-widest uppercase text-white bg-red-950/80 px-3 py-1">Legal Dossier</span>

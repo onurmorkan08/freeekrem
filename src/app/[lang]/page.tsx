@@ -24,8 +24,8 @@ export default async function Home({
         {/* Background Atmosphere - Restrained dark civic texture */}
         <div className="absolute inset-0 z-0">
           <img 
-             src="https://images.unsplash.com/photo-1541872703874-fa7252ce7be9?auto=format&fit=crop&w=2000&q=80" 
-             className="absolute inset-0 w-full h-full object-cover opacity-5 grayscale mix-blend-luminosity"
+             src="/images/4.png" 
+             className="absolute inset-0 w-full h-full object-cover opacity-[0.15] grayscale mix-blend-luminosity"
              alt="Civic Background"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#050608] via-[#050608]/80 to-[#050608] z-10"></div>
@@ -40,7 +40,7 @@ export default async function Home({
                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 lg:left-0 lg:translate-x-0 w-[80%] h-[60%] bg-white/5 blur-[100px] rounded-full pointer-events-none"></div>
                
                <img 
-                 src="/images/free-imamoglu-post@2x-100.jpg" 
+                 src="/images/8.jpg" 
                  alt="Ekrem İmamoğlu" 
                  className="relative z-10 w-full h-full object-cover object-top drop-shadow-2xl grayscale-[20%] contrast-110"
                  style={{ WebkitMaskImage: 'linear-gradient(to top, transparent 0%, black 15%)' }}
@@ -56,7 +56,7 @@ export default async function Home({
                 <span className="text-[0.65rem] font-bold uppercase tracking-[0.3em] text-white">Emergency Dossier</span>
               </div>
               
-              <img src="/images/1 (2).png" alt="Ekrem İmamoğlu Signature" className="w-48 opacity-80 mb-6 drop-shadow-lg filter brightness-0 invert" />
+              <img src="/images/13.png" alt="Ekrem İmamoğlu Signature" className="w-48 opacity-80 mb-6 drop-shadow-lg filter brightness-0 invert" />
               <h1 className="text-6xl md:text-7xl xl:text-8xl font-serif font-black text-white mix-blend-plus-lighter mb-8 leading-[0.9] drop-shadow-2xl tracking-tight">
                 {dict.home.headline}
               </h1>
@@ -83,7 +83,7 @@ export default async function Home({
            <div className="grid md:grid-cols-2 gap-16 items-center">
              <div className="relative aspect-[4/3] group">
                 <div className="absolute inset-0 bg-primary/20 translate-x-4 translate-y-4 -z-10 transition-transform group-hover:translate-x-6 group-hover:translate-y-6"></div>
-                <img src="/images/whatsapp image 2025-09-20 at 4.34.25 pm1.jpeg" className="w-full h-full object-cover object-center grayscale contrast-125 brightness-90 shadow-2xl" alt="Ekrem İmamoğlu with Child" />
+                <img src="/images/1.jpeg" className="w-full h-full object-cover object-center grayscale contrast-125 brightness-90 shadow-2xl" alt="Ekrem İmamoğlu with Child" />
              </div>
              <div className="flex flex-col justify-center">
                 <div className="w-12 h-px bg-primary mb-8 mt-2"></div>
@@ -103,7 +103,7 @@ export default async function Home({
 
       {/* DIPLOMA ANNULMENT / DETENTION STRIP */}
       <section className="py-24 bg-primary relative overflow-hidden border-b border-white/10">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80')] bg-cover opacity-10 mix-blend-multiply grayscale"></div>
+        <div className="absolute inset-0 bg-[url('/images/7.jpg')] bg-cover bg-[center_top] opacity-10 mix-blend-multiply grayscale"></div>
         <div className="container mx-auto px-6 max-w-6xl relative z-10">
            <div className="flex flex-col md:flex-row items-center justify-between gap-12">
              <div className="md:w-1/3 flex flex-col items-start border-l-4 border-black pl-6">
@@ -123,7 +123,7 @@ export default async function Home({
       <section className="py-32 relative border-b border-zinc-900 bg-[#050608] overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-primary/50 to-transparent"></div>
-          <img src="/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380.jpg" alt="Leadership" className="absolute inset-0 w-full h-full object-cover opacity-[0.03] grayscale scale-105 mask-image-bottom-fade" />
+          <img src="/images/9.jpg" alt="Leadership" className="absolute inset-0 w-full h-full object-cover opacity-[0.05] grayscale scale-105 mask-image-bottom-fade bg-center" />
         </div>
         <div className="container mx-auto px-6 max-w-5xl relative z-10 text-center">
           <div className="w-16 h-px bg-primary mx-auto mb-12"></div>
@@ -199,9 +199,9 @@ export default async function Home({
              <div className="lg:col-span-6 relative">
                 <div className="relative aspect-[4/5] border-t border-r border-white/10 bg-zinc-950 overflow-hidden group z-10 shadow-2xl">
                   {/* Document texture blending */}
-                  <img src="https://images.unsplash.com/photo-1450101499163-c8848c66cb85?auto=format&fit=crop&q=80" className="absolute inset-0 w-full h-full object-cover grayscale mix-blend-overlay opacity-30 z-20 pointer-events-none" alt="Legal" />
+                  <img src="/images/10.jpg" className="absolute inset-0 w-full h-full object-cover object-[center_30%] grayscale mix-blend-overlay opacity-50 z-20 pointer-events-none" alt="Legal Pressure" />
                   
-                  <img src="/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380.jpg" className="absolute inset-0 w-full h-full object-cover grayscale mix-blend-luminosity opacity-80 group-hover:scale-105 transition-transform duration-1000 z-10" alt="The Legal Fight" />
+                  <img src="/images/6.jpg" className="absolute inset-0 w-full h-full object-cover object-center grayscale mix-blend-luminosity opacity-80 group-hover:scale-105 transition-transform duration-1000 z-10" alt="The Legal Fight" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#08090b] via-transparent to-transparent z-30"></div>
                 </div>
              </div>
@@ -255,13 +255,13 @@ export default async function Home({
            <div className="grid md:grid-cols-3 gap-px bg-zinc-900 border border-zinc-900 overflow-hidden">
              {/* Civic Action Render */}
              <div className="aspect-[4/5] relative group bg-black">
-                <img src="/images/ChatGPT Image Apr 23, 2026, 01_40_24 AM.png" className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700" alt="Action" />
+                <img src="/images/11.png" className="absolute inset-0 w-full h-full object-cover object-center grayscale opacity-80 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700" alt="Action" />
              </div>
              <div className="aspect-[4/5] relative group bg-black">
-                <img src="https://images.unsplash.com/photo-1554188289-4b2a8eddbcd4?auto=format&fit=crop&q=80" className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700" alt="Protest" />
+                <img src="/images/12.jpg" className="absolute inset-0 w-full h-full object-cover object-top grayscale opacity-60 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700" alt="Protest" />
              </div>
              <div className="aspect-[4/5] relative group bg-black">
-                <img src="https://images.unsplash.com/photo-1460808169956-6c5d15c8c50c?auto=format&fit=crop&q=80" className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700" alt="Solidarity" />
+                <img src="/images/4.png" className="absolute inset-0 w-full h-full object-cover object-center grayscale opacity-60 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700" alt="Solidarity" />
              </div>
            </div>
         </div>
@@ -280,7 +280,7 @@ export default async function Home({
 
       {/* FINAL CTA / TRANSITION */}
       <section className="py-24 bg-primary relative overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.03] bg-[url('https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80')] bg-cover mix-blend-multiply pointer-events-none"></div>
+        <div className="absolute inset-0 opacity-[0.05] bg-[url('/images/5.png')] bg-cover bg-[center_30%] mix-blend-multiply pointer-events-none grayscale"></div>
         <div className="container mx-auto px-6 max-w-4xl text-center relative z-10">
            <h2 className="text-4xl md:text-6xl font-serif text-[#050608] font-black mb-6">{dict.home.cta?.title}</h2>
            <p className="text-xl text-[#1a0101] font-medium mb-12 max-w-lg mx-auto">{dict.home.cta?.text}</p>

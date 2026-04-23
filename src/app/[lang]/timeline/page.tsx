@@ -11,21 +11,21 @@ export default function TimelinePage() {
       date: "Spring 2026",
       subtitle: "Detention & National Pushback",
       text: "Following the sudden annulment of his diploma, authorities executed the long-feared detention order against the mayor. Rather than paralyze the opposition, this unprecedented erasure of a 16-million-person mandate immediately triggered a sprawling, nationwide coordinated resistance.",
-      img: "/images/ChatGPT Image Apr 23, 2026, 01_40_24 AM.png",
+      img: "/images/4.png",
       imgPos: "center 20%",
     },
     {
       date: "March 2025",
       subtitle: "The Diploma Annulment",
       text: "In an unprecedented administrative maneuver, state loyalists engineered the sudden annulment of his university diploma over three decades after graduation. This was specifically designed to technically bar him from presidential eligibility under constitutional requirements.",
-      img: "/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (4).jpg",
+      img: "/images/7.jpg",
       imgPos: "center top",
     },
     {
       date: "Early 2025",
       subtitle: "The Multi-Front Legal Assault",
       text: "Recognizing his undisputed political dominance ahead of the next presidential cycle, the state opened a barrage of secondary investigations. From alleged 'terror-linked' municipal hiring to historic bid-rigging charges, the goal was to guarantee at least one conviction to ban him from politics.",
-      img: "/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380.jpg",
+      img: "/images/9.jpg",
       imgPos: "center 15%",
     },
 
@@ -35,14 +35,14 @@ export default function TimelinePage() {
       date: "March 31, 2024",
       subtitle: "The Re-Election Landslide",
       text: "Navigating immense state hostility, administrative blockades, and legal threats, İmamoğlu ran for a second term as Mayor of Istanbul. He won a resounding victory with over 1 million votes, proving his support transcended the immediate post-2019 backlash. This sent the state into accelerated tactical mode.",
-      img: "/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (3).jpg",
+      img: "/images/11.png",
       imgPos: "center 10%",
     },
     {
       date: "May 2023",
       subtitle: "The National Campaign",
       text: "Operating under the shadow of a looming political ban from the 'fool' trial, İmamoğlu campaigned heavily across Anatolia for the opposition alliance in the Presidential elections. Despite the opposition's ultimate loss, his rallies drew massive crowds, demonstrating his unique national reach.",
-      img: "https://images.unsplash.com/photo-1554188289-4b2a8eddbcd4?auto=format&fit=crop&q=80",
+      img: "/images/5.png",
       imgPos: "center",
     },
 
@@ -52,14 +52,14 @@ export default function TimelinePage() {
       date: "December 14, 2022",
       subtitle: "The Weaponized Verdict",
       text: "A Turkish court sentenced him to 2 years and 7 months in prison and imposed a political ban under Article 53 connected to the obscure 'fool' remark. Rather than weakening him, the conviction ignited massive regional protests and global condemnation, cementing his democratic leadership.",
-      img: "https://images.unsplash.com/photo-1450101499163-c8848c66cb85?auto=format&fit=crop&q=80",
+      img: "/images/12.jpg",
       imgPos: "center",
     },
     {
       date: "November 4, 2019",
       subtitle: "The First Pretext",
       text: "In response to an insult from the Interior Minister, İmamoğlu called the officials who canceled the first election 'fools'. Over a year later, this single remark was weaponized as the ultimate foundation for criminal prosecution.",
-      img: "/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380 (1).jpg",
+      img: "/images/6.jpg",
       imgPos: "center top",
     },
 
@@ -69,21 +69,21 @@ export default function TimelinePage() {
       date: "June 23, 2019",
       subtitle: "The Decisive Blow",
       text: "In the re-run election forced by the state, İmamoğlu crushed the ruling party candidate with an overwhelming 806,415 vote majority. He emerged significantly stronger than before, proving that an enforced state narrative could not override public mandate.",
-      img: "/images/free-imamoglu-post@2x-100.jpg",
+      img: "/images/8.jpg",
       imgPos: "center 25%",
     },
     {
       date: "May 6, 2019",
       subtitle: "The Annulment",
       text: "Under immense political pressure, the Supreme Election Council (YSK) controversially annulled the mayoral election results, claiming irregularities. The mandate of 16 million citizens was temporarily erased, and a rerun was scheduled.",
-      img: "/images/b193ed98-4d1c-4919-9dc5-20aa3d56bedd.jpg",
+      img: "/images/10.jpg",
       imgPos: "center 10%",
     },
     {
       date: "March 31, 2019",
       subtitle: "The Initial Victory",
       text: "Ekrem İmamoğlu narrowly won the Istanbul mayoral election, ending 25 years of conservative rule. The loss of Turkey's economic powerhouse triggered immediate panic within the administration.",
-      img: "/images/ChatGPT Image Apr 23, 2026, 01_40_16 AM.png",
+      img: "/images/3).png",
       imgPos: "center top",
     }
   ];
@@ -93,7 +93,7 @@ export default function TimelinePage() {
       {/* Background Hero Texture */}
       <div className="absolute top-0 left-0 w-full h-[60vh] overflow-hidden pointer-events-none opacity-20 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-[#050608] z-10"></div>
-        <img src="/images/898486cb-d4b0-4db5-9ae1-1ebefdea6380.jpg" className="w-full h-full object-cover object-top grayscale mix-blend-screen mask-image-bottom-fade" alt="Historical Timeline" />
+        <img src="/images/9.jpg" className="w-full h-full object-cover object-top grayscale mix-blend-screen mask-image-bottom-fade opacity-30" alt="Historical Timeline" />
       </div>
 
       <div className="relative z-10">
