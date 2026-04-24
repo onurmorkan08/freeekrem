@@ -145,11 +145,12 @@ export default function CHPActionsPage() {
                           whileInView={{ opacity: 1, scale: 1 }}
                           viewport={{ once: true, margin: "-50px" }}
                           transition={{ duration: 1, delay: imgIndex * 0.2 }}
-                          className="relative aspect-[4/3] group-hover:border-primary/50 transition-colors border-2 border-white/5 bg-zinc-900 overflow-hidden shadow-2xl"
+                          className="relative aspect-[4/3] group-hover:border-primary/50 transition-colors border-2 border-white/5 bg-zinc-950 overflow-hidden shadow-2xl flex items-center justify-center"
                         >
-                          <div 
-                            className="absolute inset-0 bg-cover bg-center grayscale opacity-70 hover:grayscale-[20%] mix-blend-luminosity transition-all duration-700 hover:scale-105"
-                            style={{ backgroundImage: `url('${img}')` }}
+                          <img 
+                            src={img}
+                            alt="Protest Action"
+                            className="w-full h-full object-contain object-center grayscale opacity-70 hover:grayscale-[20%] mix-blend-luminosity transition-all duration-700 hover:scale-105"
                           />
                         </motion.div>
                       ))}
