@@ -75,14 +75,6 @@ export default function ContactPage() {
                <p className="text-zinc-400 text-lg leading-relaxed mb-12 text-balance">
                  {content.formDesc}
                </p>
-
-               <div className="p-8 border border-white/10 bg-zinc-950/80 backdrop-blur-md mb-8 hover:border-white/20 transition-colors shadow-2xl relative overflow-hidden">
-                 <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-primary/50 to-transparent"></div>
-                 <h3 className="text-[0.65rem] font-bold uppercase tracking-[0.2em] text-zinc-500 mb-4">{isTR ? 'Doğrudan İletişim' : 'Direct Channel'}</h3>
-                 <a href="mailto:amerikachp@gmail.com" className="inline-flex items-center gap-3 text-white border-b border-zinc-700 pb-1 hover:border-primary transition-colors font-serif text-2xl group-hover:text-primary">
-                   amerikachp@gmail.com <MoveRight className="w-5 h-5 ml-2" />
-                 </a>
-               </div>
             </div>
 
             {/* Right Column: Premium Form */}

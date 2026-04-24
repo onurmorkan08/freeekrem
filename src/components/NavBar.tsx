@@ -55,7 +55,6 @@ export default function NavBar({ lang }: { lang: Locale }) {
     >
       <div className="container mx-auto px-6 h-full flex items-center justify-between">
         <Link href={`/${lang}`} className="font-serif text-xl sm:text-2xl font-black tracking-tighter uppercase text-white flex items-center gap-3">
-          <div className="w-3 h-3 bg-primary mix-blend-screen"></div>
           Free Ekrem İmamoğlu
         </Link>
 

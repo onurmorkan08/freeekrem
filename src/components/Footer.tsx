@@ -50,10 +50,10 @@ export default function Footer({ lang }: { lang: Locale }) {
       <div className="container mx-auto px-6 mt-16 pt-8 border-t border-white/5 text-center flex flex-col md:flex-row justify-between items-center text-xs text-zinc-600 gap-6">
         <span>© {new Date().getFullYear()} Free Ekrem İmamoğlu Advocacy</span>
         
-        <div className="flex flex-row items-center gap-3 opacity-90 hover:opacity-100 transition-opacity pointer-events-auto">
-           <img src="/images/2.png" className="h-6 w-auto object-contain invert opacity-90" alt="Owner Signature" />
-           <span className="text-xs font-medium tracking-widest text-white">Onur Morkan</span>
-        </div>
+        <Link href={`/${lang}/onur-morkan`} className="flex flex-row items-center gap-3 opacity-90 hover:opacity-100 transition-opacity pointer-events-auto">
+           <img src="/images/2.png" className="h-7 w-auto object-contain drop-shadow-md" alt="Owner Signature" />
+           <span className="text-[14px] font-medium tracking-widest text-white">Onur Morkan</span>
+        </Link>
 
         <div className="flex gap-4">
            <Link href={`/${lang}`} className="hover:text-zinc-400">Privacy Policy</Link>

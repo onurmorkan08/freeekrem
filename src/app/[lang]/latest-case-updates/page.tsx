@@ -141,13 +141,6 @@ export default async function LatestUpdatesPage() {
           ))}
         </div>
 
-        {/* Pseudo Pagination */}
-        <div className="mt-20 text-center">
-           <button className="px-8 py-4 border border-zinc-700 text-zinc-400 font-bold uppercase tracking-widest text-xs hover:border-primary hover:text-white transition-colors bg-black">
-             Load Historical Archive
-           </button>
-        </div>
-
       </div>
     </div>
   );
