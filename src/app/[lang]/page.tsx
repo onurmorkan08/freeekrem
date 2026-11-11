@@ -208,6 +208,57 @@ export default async function Home({
         </div>
       </section>
 
+      {/* BOOK / ENGLISH EDITION */}
+      <section className="py-24 md:py-32 bg-[#08090b] border-b border-white/5 relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-1/2 h-full bg-primary/5 blur-[140px] pointer-events-none" />
+        <div className="container mx-auto px-6 max-w-6xl relative z-10">
+          <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
+            <div className="lg:col-span-5 flex justify-center lg:justify-start">
+              <div className="relative w-full max-w-[360px] bg-white/[0.03] border border-white/10 p-4 sm:p-5 shadow-2xl">
+                <div className="absolute top-3 left-3 w-14 h-14 border-t border-l border-primary/60 pointer-events-none" />
+                <img
+                  src="/images/my-nation-is-my-witness-cover.jpg"
+                  alt="Original Turkish cover of Ekrem İmamoğlu's book Millet Şahidimdir"
+                  className="block w-full h-auto object-contain bg-white"
+                  loading="lazy"
+                />
+                <p className="mt-4 text-center text-[0.65rem] text-zinc-500 uppercase tracking-[0.25em]">
+                  {lang === "tr" ? "İngilizce e-kitap" : "English translation"}
+                </p>
+              </div>
+            </div>
+            <div className="lg:col-span-7">
+              <div className="flex items-center gap-4 mb-8">
+                <div className="w-12 h-px bg-primary" />
+                <span className="text-primary text-xs font-bold uppercase tracking-[0.3em]">
+                  {lang === "tr" ? "Kitap / İngilizce Çeviri" : "The Book / English Edition"}
+                </span>
+              </div>
+              <h2 className="font-serif text-5xl md:text-6xl text-white leading-[0.98] tracking-tight mb-7">
+                My Nation Is My Witness
+              </h2>
+              <p className="text-primary text-sm tracking-[0.15em] uppercase font-bold mb-7">Ekrem İmamoğlu</p>
+              <p className="text-zinc-400 text-lg md:text-xl leading-relaxed max-w-2xl mb-10">
+                {lang === "tr"
+                  ? "Millet Şahidimdir kitabının İngilizce çevirisini çevrimiçi okuyun veya PDF olarak indirin. Kitap, İmamoğlu'nun yargı sürecine dair anlatımını ve Türkiye'nin demokratik geleceğine ilişkin görüşlerini içeriyor."
+                  : "Read the English translation of Ekrem İmamoğlu's book, reflecting on the legal proceedings against him and his vision for Türkiye's democratic future."}
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <Link href={`/${lang}/book`} className="inline-flex items-center gap-3 bg-primary text-white px-8 py-5 font-bold uppercase tracking-widest text-xs sm:text-sm hover:brightness-110 transition-all">
+                  {lang === "tr" ? "Çevrimiçi Oku" : "Read Online"}
+                  <MoveRight className="w-5 h-5" />
+                </Link>
+                <a href="/books/my-nation-is-my-witness-en.pdf" download="Ekrem_Imamoglu_My_Nation_Is_My_Witness_EN.pdf" className="inline-flex items-center gap-3 border border-white/20 text-white px-8 py-5 font-bold uppercase tracking-widest text-xs sm:text-sm hover:bg-white/10 transition-all">
+                  {lang === "tr" ? "PDF İndir" : "Download PDF"}
+                </a>
+              </div>
+              <p className="text-xs text-zinc-600 mt-6">{lang === "tr" ? "Not: Eklerdeki bazı grafikler orijinal Türkçe metin içerir." : "Note: Some appendix graphics retain Turkish text."}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* LATEST DEVELOPMENTS PREVIEW */}
       <section className="py-24 bg-[#050608] border-b border-white/5 relative">
         <div className="container mx-auto px-6 max-w-6xl">
